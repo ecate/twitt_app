@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>TwittApp</title>
-  <%= stylesheet_link_tag    "all" %>
-  <%= javascript_include_tag "all" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
+  <head>
+    <title>Ruby on Rails Tutorial Sample App | <%= @title %></title>
+    <%= csrf_meta_tag %>
+  </head>
+  <body>
+    <%= yield %>
+  </body>
 </html>
