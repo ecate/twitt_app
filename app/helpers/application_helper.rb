@@ -1,4 +1,7 @@
 module ApplicationHelper
+	def logo
+	@logo = image_tag("macten.jpg", :alt => "Sample twitt App", :class => "round")
+	end
 
   # Return a title on a per-page basis.
   def title
